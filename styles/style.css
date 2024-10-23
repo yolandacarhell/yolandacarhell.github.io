@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(223, 198, 227);
+    font-family: Verdana;
+}
+
+h1{
+    color:rgb(0, 0, 0)
+}
+
+h2{
+    color:darkblue;
+   
+}
+
+h2{
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+
+h3{
+    text-shadow: 2px 2px 5px green;
+    color:white;
+}
+
+.important{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.skills{
+    list-style-type:square;
+}
+
+.topnav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.topnav-box{
+    background-color:white;
+    color:(223, 198, 227);
+    text-align:center;
+    border:1px solid rgb(223, 198, 227);
+    padding: 30px;
+}
+
+
+@media(min-width:468px){
+
+.skillboxes-1{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.skillboxes-2{
+    display:flex;
+
+}
+
+}
+
+.hardskills{
+    flex:1;
+    
+}
+
+.softskills{
+    flex:1;
+
+}
+
+.uselessskills{
+    flex:1;
+
+}
+
+.languageskills{
+    flex:1;
+
+}
+
+.techskills{
+    flex:1;
+
+}
+
+.pmskills{
+    flex:1;
+
+}
+
+.skillheader{
+    text-align:center;
+}
+
+#summary{
+    border:1px white solid;
+    padding:10px;
+}

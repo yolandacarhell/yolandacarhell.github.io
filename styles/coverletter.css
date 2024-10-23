@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(223, 198, 227);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ref{
+    font-weight: 800;
+    text-align:center;
+}
+
+p{    
+    text-align: justify;
+}
+
+body{
+    padding: 100px;
+}
