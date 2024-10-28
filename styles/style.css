@@ -1,25 +1,63 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 198, 227);
     font-family: Verdana;
 }
 
-h1{
-    color:rgb(0, 0, 0)
+#profile{
+    max-width:50%;
+    height:auto;
+    border-radius:50%;
+
 }
 
-h2{
-    color:darkblue;
-   
+#summary{
+    text-align: justify;
 }
 
-h2{
-    text-shadow: 2px 2px 5px black;
-    color: white;
+.company{
+    font-style:italic;
 }
 
-h3{
-    text-shadow: 2px 2px 5px green;
+#experience{
+    text-align: center;
+}
+
+#education{
+    text-align:center;
+}
+
+.educolumn{
+    background-color: rgb(81, 109, 109);
+    text-align: left;
     color:white;
+}
+
+.experiencecolumn{
+    text-align: left;
+    background-color: rgb(2, 105, 105);
+    color:white;
+}
+
+.edurow{
+    background-color: rgb(176, 192, 192);
+}
+
+.exrow{
+    background-color: rgb(159, 205, 205);
+}
+
+.skillrow{
+    background-color:rgb(141, 159, 220);
+}
+
+.skillcolumn{
+    text-align:left;
+    background-color: rgb(17, 81, 137);
+    color:white;
+}
+
+.row{
+    justify-content: space-between;
 }
 
 .important{
@@ -31,17 +69,13 @@ h3{
     list-style-type:square;
 }
 
+#skills{
+    text-align: center;
+}
+
 .topnav{
     display:flex;
     justify-content: space-between;
-}
-
-.topnav-box{
-    background-color:white;
-    color:(223, 198, 227);
-    text-align:center;
-    border:1px solid rgb(223, 198, 227);
-    padding: 30px;
 }
 
 
