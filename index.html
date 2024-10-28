@@ -7,140 +7,213 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body>
-        
-        <div class="topnav">
-            <div class="topnav-box"><a href="https://www.linkedin.com/in/yolanda-hellmanns-carvajal-9716a1147/" target="_blank">LinkedIn</a></div>
-            <div class="topnav-box"><a href="mailto:yolanda.carhell@hotmail.com">Email</a></div>
-            <div class="topnav-box"><a href="tel:0879289210">Click to call</a></div>
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="cvindex.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="coverletter/coverletter.html">Cover Letter</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CV
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#experience">Experience</a></li>
+                      <li><a class="dropdown-item" href="#education">Education</a></li>
+                      <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"></li>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.linkedin.com/in/yolanda-hellmanns-carvajal-9716a1147/" target="_blank">LinkedIn</a></li>
+                      <li><a class="dropdown-item" href="mailto:yolanda.carhell@hotmail.com">Email</a></li>
+                      <li><a class="dropdown-item" href="tel:0000000000">Phone</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--name, photo, executive summary-->
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-3 col-sm-12">
+                <img id="profile" src="images/profile.png" alt="Avatar" width="100%" height="auto">
+              </div>
+              <div class="col-lg-9 col-sm-12">
+                <h1>Yolanda Hellmanns Carvajal</h1>
+                <h3>Executive Summary</h3>
+                <p id="summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem consectetur consequuntur rerum soluta accusamus itaque atque, debitis porro cupiditate et voluptate dignissimos dolor aspernatur culpa repudiandae deserunt eligendi maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est corrupti harum perferendis nisi voluptatibus iste inventore. Voluptatibus quaerat suscipit blanditiis pariatur atque, corrupti, soluta quibusdam maxime quam ea repudiandae.</p>
+              </div>
+            </div>
         </div>
-        <br>
-        <br>
+       
         <br>
 
-        <h1>Yolanda Hellmanns Carvajal</h1>
-        <p><a href="#education">Click here to go to Education</a></p>
-        <p><a href="#skills">Click here to go to Skills</a></p>
-        <p><a href="cvindex.html">Click here to go to back to Menu</a></p>
-
-        <img src="images/yolanda.jpeg" alt="Yolanda's very professional picture with Bilbo the cat." width="192" height="255.5">
-
-        <h2>Executive Summary</h2>
-        <p id="summary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rerum vero facilis sit explicabo! Magni facilis quibusdam nisi eum quos, maiores quisquam odio molestias corrupti, aspernatur dolorem hic eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nulla harum quibusdam rem officia reprehenderit blanditiis enim voluptates voluptatum dolor quia, iusto illum dolore beatae quaerat alias ea mollitia in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque commodi quod ad incidunt aliquam sint modi corrupti reprehenderit expedita quasi voluptate aliquid a officia mollitia, totam maxime, natus sapiente rerum?
-        </p>
-
-        <h2>Experience</h2>
-        <h3>Very important recent job at Big Company</h3>
-        <ul>
-            <li>Did <span class="important">important</span> thing</li>
-            <li>Did important thing</li>
-            <li>Did important thing</li>
-            <li>Did <span class="important">important</span> thing</li>
-            <li>Did important thing</li>
-            <li>Did important thing</li>
-            <li>Did important thing</li>
-            <li>Did important thing</li>
-            <li>Did important thing</li>
-            <li>Did important thing</li>
-            <li>Did impressive thing</li>
-            <li>Did impressive thing</li>
-            <li>Did impressive thing</li>
-            <li>Did impressive thing</li>
-        </ul>
+        <!--Experience-->
+        <h2 id="experience">Professional Experience</h2>
         <br>
-        <h3>Job I loved for terrible pay at That Place People Love</h3>
-        <ul>
-            <li>Fun stuff that nobody cares about</li>
-            <li>Fun stuff that nobody cares about</li>
-            <li>Fun stuff that nobody cares about</li>
-            <li>Fun stuff that nobody cares about</li>
-            <li>Fun stuff that nobody cares about</li>
-            <li>Fun stuff that nobody cares about</li>
-            <li>That one bit of bullshit</li>
-        </ul>
-        <br>
-        <h3>Job I hated that sounds impressive at Medium Sized Company</h3>
-       <ul>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super <span class="important">impressive</span> corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-            <li>Super impressive corporate lingo</li>
-       </ul>
+        <div class="container text-center">
+            <div class="row exrow mt-3">
+              <div class="col-xl-3 col-lg-10 experiencecolumn">
+                <h3>Very Important Job Title</h3>
+                <h5 class="company">Big Company, Dublin, Ireland</h5>
+                <h6>July 2023 - October 2024</h6>
+                    <ul>
+                        <li>Did <span class="important">important</span> thing</li>
+                        <li>Did important thing</li>
+                        <li>Mildly less important thing that sounds great</li>
+                        <li>Something dumb that sounds really impressive</li>
+                        <li>Corporate lingo for good measure</li>
+                        <li>Buzzwords</li>
+                        <li>The thing I actually cared about that isn't quantifiable</li>
+                        <li>More important things</li>
+                        <li>You know the drill</li>
+                    </ul>
+              </div>
+              <div class="col-lg-10 col-xl-3 experiencecolumn">
+                <h2>Job I loved for terrible pay</h2>
+                <h5 class="company">Deceptively Big Company, Dublin, Ireland</h5>
+                <h6>November 2019 - July 2023</h6>
+                <ul>
+                    <li>Fun stuff that nobody cares about</li>
+                    <li>Fun stuff that nobody cares about</li>
+                    <li>Fun stuff that nobody cares about</li>
+                    <li>Fun stuff that nobody cares about</li>
+                    <li>Fun stuff that nobody cares about</li>
+                    <li>Fun stuff that nobody cares about</li>
+                    <li>That one bit of bullshit</li>
+                </ul>
+              </div>
+              <div class="col-lg-10 col-xl-3 experiencecolumn">
+                <h2>Job I hated that sounds impressive</h2>
+                <h5 class="company">Medium Sized Company, Dublin, Ireland</h5>
+                <h6>August 2019 - November 2019</h6>
+                <ul>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super <span class="important">impressive</span> corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+                    <li>Super impressive corporate lingo</li>
+               </ul>
+              </div>
+            </div>
+        </div>
+       
        <br>
-       <br>
+
+       <!--Education-->
         <h2 id="education">Education</h2>
-        <h3>M.A. in Useless Creative Thing at The Not So Posh University</h3>
-        <p>Time spent not attending lectures</p>
-        <h3>B.A. in Useless Humanities Thing at The University Nobody Writes Books About</h3>
-        <p>Time spent in Cafés</p>
-        <h3>School, a.k.a. The Most Challengin Education Part</h3>
-        <p>Did it in the appropriate amount of years.</p>
         <br>
+        <div class="container text-center">
+            <div class="row edurow mt-3">
+                <div class="col-lg-10 col-xl-3 educolumn">
+                    <h3>Higher Diploma in Useful Thing</h3>
+                    <h5 class="company">National College Ireland</h5>
+                    <h6>2024 - 2026</h6>
+                </div>
+
+                <div class="col-xl-3 col-lg-10 educolumn">
+                    <h3>M.A. in Useless Creative Thing</h3>
+                    <h5 class="company">Dublin City University</h5>
+                    <h6>2019 - 2021</h6>
+                </div>
+
+                <div class="col-lg-10 col-xl-3 educolumn">
+                    <h3>B.A. in Useless Humanities Thing</h3>
+                    <h5 class="company">Goethe Uni FFM</h5>
+                    <h6>2014 - 2017</h6>
+                </div>
+            </div>
+        </div>
+
         <br>
 
+        <!--Skills-->
         <h2 id="skills">Skills</h2>
-        <div class="skillboxes-1"> 
-         <div class="hardskills">
-            <h3 class="skillheader">Hard skills</h3>
-                <ul class="skills">
-                    <li>Software development, in progress</li>
-                    <li>Was great at Maths in school</li>
-                </ul>
+        <br>
+        <div class="container text-center">
+            <div class="row skillrow mt-1">
+                <div class="col-lg-10 col-xl-3 skillcolumn">
+                    <h3>Hard Skills</h3>
+                    <ul class="skills">
+                        <li>Software development, in progress</li>
+                        <li>Was great at Maths in school</li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-10 skillcolumn">
+                    <h3>Soft Skills</h3>
+                    <ul class="skills">
+                        <li>Empathetic leadership</li>
+                        <li>Detail-oriented</li>
+                        <li>Crossfunctional work</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-10 col-xl-3 skillcolumn">
+                    <h3>Useless Skills</h3>
+                    <ul class="skills">
+                        <li>Can quote Harry Potter in any situation</li>
+                        <li>Able to identify One Direction songs within less than 2 seconds</li>
+                        <li>Can rewatch Friends 100+ times without getting bored</li>
+                        <li>Encyclopedic knowledge of Taylor Swift lyrics</li>
+                    </ul>
+                </div>
             </div>
-            <div class="softskills">
-                <h3 class="skillheader">Soft skills</h3>
-                <ul class="skills">
-                    <li>Empathetic leadership</li>
-                    <li>Detail-oriented</li>
-                    <li>Crossfunctional work</li>
-                </ul>
+            <div class="row skillrow mt-3">
+                <div class="col-lg-10 col-xl-3 skillcolumn">
+                    <h3>Language Skills</h3>
+                    <ul class="skills">
+                        <li>Native German</li>
+                        <li>Native Spanish</li>
+                        <li>Native English</li>
+                        <li>Conversational French</li>
+                        <li>Basic Quenya</li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-10 skillcolumn">
+                    <h3>Tech Skills</h3>
+                    <ul class="skills">
+                        <li>Basic CSS</li>
+                        <li>Basic SQL</li>
+                        <li>Basic HTML</li>
+                        <li>Hesitant Java</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-10 col-xl-3 skillcolumn">
+                    <h2>Project Management Skills</h2>
+                    <ul class="skills">
+                        <li>3+ years of experience in Project and Program management</li>
+                        <li>Vendor management</li>
+                    </ul>
+                </div>
             </div>
-            <div class="uselessskills">
-                <h3 class="skillheader">Useless skills</h3>
-                <ul class="skills">
-                    <li>Can quote Harry Potter in any situation</li>
-                    <li>Able to identify One Direction songs within less than 2 seconds</li>
-                    <li>Can rewatch Friends 100+ times without getting bored</li>
-                    <li>Encyclopedic knowledge of Taylor Swift lyrics</li>
-                </ul>
-            </div>  
-            </div>
-            <div class="skillboxes-2">
-            <div class="languageskills">
-               <h3 class="skillheader">Language skills</h3>
-                   <ul class="skills">
-                       <li>Native German</li>
-                       <li>Native Spanish</li>
-                       <li>Native English</li>
-                       <li>Conversational French</li>
-                       <li>Basic Quenya</li>
-                   </ul>
-               </div>
-               <div class="techskills">
-                   <h3 class="skillheader">Tech skills</h3>
-                   <ul class="skills">
-                       <li>Basic CSS</li>
-                       <li>Basic SQL</li>
-                       <li>Basic HTML</li>
-                       <li>Hesitant Java</li>
-                   </ul>
-               </div>
-               <div class="pmskills">
-                   <h3 class="skillheader">Project Management skills</h3>
-                   <ul class="skills">
-                       <li>3+ years of experience in Project and Program management</li>
-                       <li>Vendor management</li>
-                   </ul>
-               </div>
-           </div>   
         </div>
+
+        <!--Footer-->
+
+
+
+        
     </body>
 </html>
